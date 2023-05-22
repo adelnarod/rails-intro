@@ -1,0 +1,10 @@
+<h1>This is the homepage</h1>
+
+<p><%= DateTime.now %></p>
+
+<%= link_to "About Us", about_path %>
+
+<form action="/contact" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="submit">
+</form>
